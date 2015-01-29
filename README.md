@@ -74,6 +74,7 @@ We will be looking at a couple students' webpages, there's no pressure to make i
 
 I suggest making flashcards for each of these "terminal/command prompt" commands
 
+```
 pwd             - stands for ‘Path of Working Directory’. Find out where you are by typing
 ls              - list the contents of a particular directory
 cd PATH         - change to another directory
@@ -87,6 +88,7 @@ mkdir           - create directories. Example: "mkdir music" will create a direc
 cp              - make a copy of a file for you. Example: "cp file foo" will make an exact copy of "file" and name it "foo"
 mv              - move a file to a different location or will rename a file. Examples are as follows: "mv file foo" will rename the file "file" to "foo". "mv foo ~/Desktop" will move the file "foo" to your Desktop directory, but it will not rename it. You must specify a new file name to rename a file.
 man             - show you the manual of other commands
+```
 
 BEWARE: any command that uses "sudo" or "-f" these can harm your computer or destroy your project.
 
@@ -96,7 +98,7 @@ If you want to learn more about using Git go through [Learn Git Branching](http:
 ### Notes
 
 #### important terms
-
+```
 Repo or Repository
   The file that you are working on it can include other files.
 Branch
@@ -115,9 +117,9 @@ Pushing
   Rending your local work online ex. GitHub
 Pull Request
   Requesting the changes that you made be merged with a repo
-
+```
 #### important git commands
-
+```
 Git init
   Creates a new repository in your local project
 Git remote add origin <GitHub URL>
@@ -130,7 +132,7 @@ Git push origin <branch>
   sends changes up to GitHub
 Git status
   Tells your current state, what has been added, untracked changes, what is staged, and current branch. Keep useing this command to check where you are in the commiting process
-
+```
 
 ## Stretch Challenge: wire framing
 
